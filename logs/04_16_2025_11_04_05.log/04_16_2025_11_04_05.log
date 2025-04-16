@@ -1,5 +1,0 @@
-[2025-04-16 11:24:05,816 ] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-[2025-04-16 11:24:06,560 ] 15 root - INFO - initiate data ingestion
-[2025-04-16 11:27:25,140 ] 53 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData'.
-[2025-04-16 11:27:25,314 ] 85 root - INFO - Exited split_data_as_train_test method of DataIngestion class
-[2025-04-16 11:27:25,315 ] 90 root - INFO - Exporting train and test files to path: Artifacts/04_16_2025_11_24_06/data_ingestion/ingested

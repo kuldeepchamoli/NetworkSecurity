@@ -1,0 +1,17 @@
+[2025-04-16 19:24:16,450 ] 18 root - INFO - Initiating data ingestion...
+[2025-04-16 19:31:16,267 ] 18 root - INFO - Initiating data ingestion...
+[2025-04-16 19:35:52,728 ] 53 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData'.
+[2025-04-16 19:35:52,919 ] 85 root - INFO - Exited split_data_as_train_test method of DataIngestion class
+[2025-04-16 19:35:52,919 ] 90 root - INFO - Exporting train and test files to path: Artifacts/04_16_2025_19_31_15/data_ingestion/ingested
+[2025-04-16 19:35:53,013 ] 20 root - INFO - Data ingestion completed.
+[2025-04-16 19:35:53,020 ] 26 root - INFO - Initiating data validation...
+[2025-04-16 19:35:53,051 ] 33 root - INFO - Expected number of columns: 31
+[2025-04-16 19:35:53,051 ] 34 root - INFO - Actual number of columns in DataFrame: 31
+[2025-04-16 19:35:53,051 ] 33 root - INFO - Expected number of columns: 31
+[2025-04-16 19:35:53,051 ] 34 root - INFO - Actual number of columns in DataFrame: 31
+[2025-04-16 19:35:53,292 ] 28 root - INFO - Data validation completed.
+[2025-04-16 19:35:53,293 ] 33 root - INFO - Data Transformation Started.
+[2025-04-16 19:35:53,293 ] 57 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-04-16 19:35:53,293 ] 59 root - INFO - Satrting data transformation
+[2025-04-16 19:35:53,341 ] 43 root - INFO - Entered get_data_transformer_object method of Transformation class
+[2025-04-16 19:35:53,341 ] 48 root - INFO - Initialize KNNImputer with{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}

@@ -39,3 +39,14 @@ import os
 ROOT_DIR = os.getcwd()  # or set this to your project root if needed
 
 SCHEMA_FILE_PATH = os.path.join(ROOT_DIR, "data_schema", "schema.yaml")
+
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_DIR_NAME: str = "transformed_object"
+
+## knn imputer to replace nan values : see 3 nearest neighbir and calculate avg
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict ={
+    "missing_values": np.nan,
+    "n_neighbors":3,
+    "weights": "uniform",
+}

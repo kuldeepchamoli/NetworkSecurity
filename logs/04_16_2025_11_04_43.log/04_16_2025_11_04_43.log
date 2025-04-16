@@ -1,3 +1,0 @@
-[2025-04-16 11:22:43,822 ] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
-[2025-04-16 11:22:44,445 ] 15 root - INFO - initiate data ingestion
-[2025-04-16 11:23:01,569 ] 53 root - INFO - Fetched 0 records from MongoDB collection 'NetworkData'.

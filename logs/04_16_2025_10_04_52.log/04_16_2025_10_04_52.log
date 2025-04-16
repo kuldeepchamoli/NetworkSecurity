@@ -1,2 +1,0 @@
-[2025-04-16 10:13:53,987 ] 14 root - INFO - initiate data ingestion
-[2025-04-16 10:13:54,753 ] 33 root - INFO - Fetched 0 records from MongoDB collection 'NetworkData'.

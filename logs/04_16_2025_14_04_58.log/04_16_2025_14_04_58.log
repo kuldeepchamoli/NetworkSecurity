@@ -1,5 +1,0 @@
-[2025-04-16 14:54:59,635 ] 17 root - INFO - Initiating data ingestion...
-[2025-04-16 14:56:26,318 ] 53 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData'.
-[2025-04-16 14:56:26,506 ] 85 root - INFO - Exited split_data_as_train_test method of DataIngestion class
-[2025-04-16 14:56:26,506 ] 90 root - INFO - Exporting train and test files to path: Artifacts/04_16_2025_14_54_59/data_ingestion/ingested
-[2025-04-16 14:56:26,593 ] 19 root - INFO - Data ingestion completed.
