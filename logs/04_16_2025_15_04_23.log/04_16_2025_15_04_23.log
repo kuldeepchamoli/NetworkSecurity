@@ -1,0 +1,11 @@
+[2025-04-16 15:08:24,625 ] 17 root - INFO - Initiating data ingestion...
+[2025-04-16 15:09:02,961 ] 53 root - INFO - Fetched 11055 records from MongoDB collection 'NetworkData'.
+[2025-04-16 15:09:03,113 ] 85 root - INFO - Exited split_data_as_train_test method of DataIngestion class
+[2025-04-16 15:09:03,113 ] 90 root - INFO - Exporting train and test files to path: Artifacts/04_16_2025_15_08_24/data_ingestion/ingested
+[2025-04-16 15:09:03,199 ] 19 root - INFO - Data ingestion completed.
+[2025-04-16 15:09:03,207 ] 25 root - INFO - Initiating data validation...
+[2025-04-16 15:09:03,237 ] 33 root - INFO - Expected number of columns: 31
+[2025-04-16 15:09:03,237 ] 34 root - INFO - Actual number of columns in DataFrame: 31
+[2025-04-16 15:09:03,237 ] 33 root - INFO - Expected number of columns: 31
+[2025-04-16 15:09:03,237 ] 34 root - INFO - Actual number of columns in DataFrame: 31
+[2025-04-16 15:09:03,397 ] 27 root - INFO - Data validation completed.
