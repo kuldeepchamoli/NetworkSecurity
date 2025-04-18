@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
+
 import pymongo
 from networksecurity.components.data_ingestion import DataIngestion
 from networksecurity.components.data_transformation import DataTransformation
