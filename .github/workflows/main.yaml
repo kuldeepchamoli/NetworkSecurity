@@ -84,6 +84,8 @@ jobs:
 
       - name: Run Docker Image to serve users
         run: |
+          docker stop networksecurity || true
+          docker rm networksecurity || true
           docker run -d -p 8080:8086 --ipc="host" \
             --name=networksecurity \
             -e AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
